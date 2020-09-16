@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SRP
+namespace OpenClose
 {
     class Temperature
     {

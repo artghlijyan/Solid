@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Solid
+namespace SRP
 {           
     class TimeAndTemperature //Breaks Solid's <S>
     {

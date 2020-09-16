@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Solid
+namespace SRP
 {
-    class Device
+    class SmartWatch
     {
         //Breaks Solid's <S>
         //TimeAndTemperature timeAndTemp;
@@ -22,7 +22,7 @@ namespace Solid
         Time time;
         Temperature temp;
 
-        public Device()
+        public SmartWatch()
         {
             time = new Time();
             temp = new Temperature();

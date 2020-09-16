@@ -1,14 +1,14 @@
 ﻿using System;
 
-namespace SRP
+namespace OpenClose
 {
     class Program
     {
         static void Main(string[] args)
         {
-            SmartWatch device = new SmartWatch();
+            SmartWatch_2 newDevice = new SmartWatch_2();
             Client client = new Client();
-            client.UseDevice(device);
+            client.UseDevice(newDevice);
         }
     }
 }
