@@ -6,9 +6,9 @@ namespace SRP
     {
         static void Main(string[] args)
         {
-            SmartWatch device = new SmartWatch();
-            Client client = new Client();
-            client.UseDevice(device);
+            WatchButton client = new WatchButton();
+            client.UseDevice();
+            client.UseDevice();
         }
     }
 }

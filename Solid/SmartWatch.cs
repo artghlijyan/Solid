@@ -9,14 +9,14 @@ namespace SRP
         //Breaks Solid's <S>
         //TimeAndTemperature timeAndTemp;
 
-        //public Device()
+        //public SmartWatch()
         //{
         //    timeAndTemp = new TimeAndTemperature();
         //}
 
         //public void On()
         //{
-        //    timeAndTemp.DoWork();
+        //    timeAndTemp.ShowTimeAndTemp();
         //}
 
         Time time;
