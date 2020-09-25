@@ -13,9 +13,9 @@ namespace SRP
             this.device = new SmartWatch();
         }
 
-        public void UseDevice()
+        public string UseDevice()
         {
-            device.On();
+            return device.Button_Click();
         }
     }
 }

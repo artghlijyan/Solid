@@ -7,8 +7,16 @@ namespace SRP
         static void Main(string[] args)
         {
             WatchButton client = new WatchButton();
-            client.UseDevice();
-            client.UseDevice();
+            string res = client.UseDevice();
+            Console.WriteLine(res);
+            res = client.UseDevice();
+            Console.WriteLine(res);
+            res = client.UseDevice();
+            Console.WriteLine(res);
+            res = client.UseDevice();
+            Console.WriteLine(res);
+            res = client.UseDevice();
+            Console.WriteLine(res);
         }
     }
 }

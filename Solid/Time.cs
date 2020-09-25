@@ -8,11 +8,9 @@ namespace SRP
     {
         string time;
 
-        public void ShowTime()
+        public string ShowTime()
         {
-            time = DateTime.Now.ToString();
-            string result = $"Time is {time},";
-            Console.WriteLine(result);
+            return time = DateTime.Now.ToString();
         }
     }
 }

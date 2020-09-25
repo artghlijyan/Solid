@@ -18,6 +18,7 @@ namespace SRP
         //{
         //    timeAndTemp.ShowTimeAndTemp();
         //}
+        private int _buttonCount;
 
         Time time;
         Temperature temp;
@@ -28,10 +29,45 @@ namespace SRP
             temp = new Temperature();
         }
 
-        public void On()
+        public string Button_Click()
         {
-            time.ShowTime();
-            temp.ShowTemp();
+            string result = string.Empty;
+
+            ButtonCounter();
+
+            if (_buttonCount > 2)
+            {
+                ResetButtonCount();
+                ButtonCounter();
+            }
+
+            switch (_buttonCount)
+            {
+                case 1:
+                    {
+                        result = time.ShowTime();
+                        result = string.Format("Time: {0}", result);
+                        break;
+                    }
+                case 2:
+                    {
+                        result = temp.ShowTemp();
+                        result = string.Format("Temerature: {0}", result);
+                        break;
+                    }
+            }
+
+            return result;
+        }
+
+        private void ResetButtonCount()
+        {
+            _buttonCount = 0;
+        }
+
+        private void ButtonCounter()
+        {
+            _buttonCount++;
         }
     }
 }

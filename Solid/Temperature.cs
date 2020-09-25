@@ -8,11 +8,9 @@ namespace SRP
     {
         int temp;
 
-        public void ShowTemp()
+        public string ShowTemp()
         {
-            temp = 22;
-            string result = $"Temperature is {temp}";
-            Console.WriteLine(result);
+            return (temp = 22).ToString();
         }
     }
 }
