@@ -4,19 +4,11 @@ namespace SRP
 {
     class Program
     {
+        //каждый объект должен иметь одну обязанность 
+        //и эта обязанность должна быть полностью инкапсулирована в класс, 
+        //а все его сервисы должны быть направлены исключительно на обеспечение этой обязанности.
         static void Main(string[] args)
         {
-            WatchButton client = new WatchButton();
-            string res = client.UseDevice();
-            Console.WriteLine(res);
-            res = client.UseDevice();
-            Console.WriteLine(res);
-            res = client.UseDevice();
-            Console.WriteLine(res);
-            res = client.UseDevice();
-            Console.WriteLine(res);
-            res = client.UseDevice();
-            Console.WriteLine(res);
         }
     }
 }

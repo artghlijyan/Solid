@@ -27,5 +27,11 @@ namespace SRP
             time = new Time();
             temp = new Temperature();
         }
+
+        public void On()
+        {
+            time.ShowTime();
+            temp.ShowTemp();
+        }
     }
 }
