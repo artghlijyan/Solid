@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClose", "OpenClose\Open
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSP", "LSP\LSP.csproj", "{0005ACF4-114B-4C50-8657-4CF29284875B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISP", "ISP\ISP.csproj", "{C5A855F6-8B82-486C-B687-6CEA2C62FACE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISP", "ISP\ISP.csproj", "{C5A855F6-8B82-486C-B687-6CEA2C62FACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIP", "DIP\DIP.csproj", "{2AA71C4E-07F2-46E3-93BF-A710E828982D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C5A855F6-8B82-486C-B687-6CEA2C62FACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5A855F6-8B82-486C-B687-6CEA2C62FACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5A855F6-8B82-486C-B687-6CEA2C62FACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA71C4E-07F2-46E3-93BF-A710E828982D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA71C4E-07F2-46E3-93BF-A710E828982D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA71C4E-07F2-46E3-93BF-A710E828982D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA71C4E-07F2-46E3-93BF-A710E828982D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
