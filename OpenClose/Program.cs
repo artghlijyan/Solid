@@ -7,8 +7,8 @@ namespace OpenClose
         static void Main(string[] args)
         {
 
-            SmartWatch_1 oldWatch = new SmartWatch_1();
-            SmartWatch_2 newWatch = new SmartWatch_2();
+            ISmartWatch oldWatch = new SmartWatch_1();
+            ISmartWatch newWatch = new SmartWatch_2();
 
             oldWatch.On();
             newWatch.On();

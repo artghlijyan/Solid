@@ -9,6 +9,8 @@ namespace SRP
         //а все его сервисы должны быть направлены исключительно на обеспечение этой обязанности.
         static void Main(string[] args)
         {
+            SmartWatch smartWatch = new SmartWatch();
+            smartWatch.On();
         }
     }
 }

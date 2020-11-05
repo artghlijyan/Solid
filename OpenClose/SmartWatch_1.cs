@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OpenClose
 {
-    class SmartWatch_1
+    class SmartWatch_1 : ISmartWatch
     {
         Time time;
         Temperature temp;
@@ -15,7 +15,7 @@ namespace OpenClose
             temp = new Temperature();
         }
 
-        public virtual void On()
+        public void On()
         {
             time.ShowTime();
             temp.ShowTemp();
