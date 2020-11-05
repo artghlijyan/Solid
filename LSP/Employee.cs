@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace LSP
+﻿namespace LSP
 {
-    abstract class Employee
+    abstract class Employee // : IEmployeeBonus
     {
+
         public int Id { get; set; }
         public string Name { get; set; }
 

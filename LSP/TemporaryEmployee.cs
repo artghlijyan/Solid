@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace LSP
+﻿namespace LSP
 {
-    class TemporaryEmployee : Employee
+    class TemporaryEmployee : Employee, IEmployeeBonus
     {
+        decimal bonusRatio = 0.05M;
+
         public TemporaryEmployee() { }
 
         public TemporaryEmployee(int id, string name) : base(id, name) { }
@@ -14,6 +12,11 @@ namespace LSP
         //{
         //    return (salary * 0.05M);
         //}
+
+        public decimal CalcBonus(decimal salary)
+        {
+            return (salary * bonusRatio);
+        }
 
         public override decimal GetSalery()
         {

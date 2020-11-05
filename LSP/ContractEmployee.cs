@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace LSP
+﻿namespace LSP
 {
-    class ContractEmployee : Employee
+    class ContractEmployee : Employee // IEmployeeBonus
     {
         public ContractEmployee() { }
 
         public ContractEmployee(int id, string name) : base(id, name) { }
 
-        //breaks LSP 
         //public decimal CalcBonus(decimal salary)
         //{
         //    throw new NotImplementedException();

@@ -4,6 +4,8 @@ namespace OpenClose
 {
     class Program
     {
+        // "программные сущности должны быть открыты для расширения, но закрыты для модификации"
+
         static void Main(string[] args)
         {
 
