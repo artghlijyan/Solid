@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace OpenClose
+﻿namespace OpenClose
 {
     class SmartWatch_2 : ISmartWatch // SmartWatch_1
     {
